@@ -22,20 +22,12 @@ public class Main {
             // Retrieve Data
             final InputStream dataIn = new WeatherRetriever().retrieve();
             FileUtils.copyInputStreamToFile(dataIn, file);
+            WeatherFormatter.formatXML(file);
             if (dataIn != null)
                 dataIn.close();
         } catch (final Exception e) {
             e.printStackTrace();
         }
-
-//        final byte[] buffer = new byte[dataIn.available()];
-//        dataIn.read(buffer);
-//        os = new FileOutputStream(targetFile);
-//        int bytesRead;
-//        while ((bytesRead = dataIn.read(buffer)) != -1) {
-//            os.write(buffer, 0, bytesRead);
-//        }
-        // dataIn = new WeatherRetriever().retrieve();
         // Parse Data
         final Weather weather = new WeatherParser().parse(file);
         // Format (Print) Data
