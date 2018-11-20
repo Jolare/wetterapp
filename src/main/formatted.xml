@@ -1,63 +1,238 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2018-11-18T21:13:50Z" yahoo:lang="en-US">
-  <results>
-    <channel>
-      <yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="km" pressure="mb" speed="km/h" temperature="C"/>
-      <title>Yahoo! Weather - Albstadt, BW, DE</title>
-      <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-633856/</link>
-      <description>Yahoo! Weather for Albstadt, BW, DE</description>
-      <language>en-us</language>
-      <lastBuildDate>Sun, 18 Nov 2018 10:13 PM CET</lastBuildDate>
-      <ttl>60</ttl>
-      <yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="Albstadt" country="Germany" region=" BW"/>
-      <yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="23" direction="65" speed="19.31"/>
-      <yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="79" pressure="31256.38" rising="0" visibility="25.91"/>
-      <yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="7:36 am" sunset="4:42 pm"/>
-      <image>
-        <title>Yahoo! Weather</title>
-        <width>142</width>
-        <height>18</height>
-        <link>http://weather.yahoo.com</link>
-        <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
-      </image>
-      <item>
-        <title>Conditions for Albstadt, BW, DE at 09:00 PM CET</title>
-        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">48.213661</geo:lat>
-        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">9.02414</geo:long>
-        <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-633856/</link>
-        <pubDate>Sun, 18 Nov 2018 09:00 PM CET</pubDate>
-        <yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="27" date="Sun, 18 Nov 2018 09:00 PM CET" temp="0" text="Mostly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="34" date="18 Nov 2018" day="Sun" high="3" low="-3" text="Mostly Sunny"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="19 Nov 2018" day="Mon" high="-1" low="-4" text="Mostly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="20 Nov 2018" day="Tue" high="1" low="-3" text="Partly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="21 Nov 2018" day="Wed" high="2" low="-3" text="Partly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="22 Nov 2018" day="Thu" high="4" low="-3" text="Partly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="23 Nov 2018" day="Fri" high="4" low="-2" text="Partly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="24 Nov 2018" day="Sat" high="4" low="-1" text="Mostly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="25 Nov 2018" day="Sun" high="3" low="0" text="Mostly Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="26" date="26 Nov 2018" day="Mon" high="2" low="0" text="Cloudy"/>
-        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="27 Nov 2018" day="Tue" high="1" low="-2" text="Mostly Cloudy"/>
-        <description>&lt;![CDATA[&lt;img src="http://l.yimg.com/a/i/us/we/52/27.gif"/&gt;
-&lt;BR /&gt;
-&lt;b&gt;Current Conditions:&lt;/b&gt;
-&lt;BR /&gt;Mostly Cloudy
-&lt;BR /&gt;
-&lt;BR /&gt;
-&lt;b&gt;Forecast:&lt;/b&gt;
-&lt;BR /&gt; Sun - Mostly Sunny. High: 3Low: -3
-&lt;BR /&gt; Mon - Mostly Cloudy. High: -1Low: -4
-&lt;BR /&gt; Tue - Partly Cloudy. High: 1Low: -3
-&lt;BR /&gt; Wed - Partly Cloudy. High: 2Low: -3
-&lt;BR /&gt; Thu - Partly Cloudy. High: 4Low: -3
-&lt;BR /&gt;
-&lt;BR /&gt;
-&lt;a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-633856/"&gt;Full Forecast at Yahoo! Weather&lt;/a&gt;
-&lt;BR /&gt;
-&lt;BR /&gt;
-&lt;BR /&gt;
-]]&gt;</description>
-        <guid isPermaLink="false"/>
-      </item>
-    </channel>
-  </results>
-</query><!-- total: 14 -->
+<BugCollection analysisTimestamp="1542724392566" release="" sequence="0" timestamp="1542724381326" version="3.0.1">
+  <Project projectName="wetterapp">
+    <Jar>D:\Users\Johannes\Dropbox\Studium Technische Informatik\SoftEngInst\Vorlesung1maven\wetterapp\target\classes</Jar>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Users\Johannes\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar</AuxClasspathEntry>
+    <SrcDir>D:\Users\Johannes\Dropbox\Studium Technische Informatik\SoftEngInst\Vorlesung1maven\wetterapp\src\main\java</SrcDir>
+    <WrkDir>D:\Users\Johannes\Dropbox\Studium Technische Informatik\SoftEngInst\Vorlesung1maven\wetterapp\target</WrkDir>
+  </Project>
+  <BugInstance abbrev="Dm" category="I18N" instanceHash="1f3e6073309437a25e6d984e3a47e659" instanceOccurrenceMax="0" instanceOccurrenceNum="0" priority="1" rank="19" type="DM_DEFAULT_ENCODING">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in de.fh.albsig.hd86589.weather.Main.start(): new java.util.Scanner(InputStream)</LongMessage>
+    <Class classname="de.fh.albsig.hd86589.weather.Main" primary="true">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.Main" end="58" sourcefile="Main.java" sourcepath="de/fh/albsig/hd86589/weather/Main.java" start="15">
+        <Message>At Main.java:[lines 15-58]</Message>
+      </SourceLine>
+      <Message>In class de.fh.albsig.hd86589.weather.Main</Message>
+    </Class>
+    <Method classname="de.fh.albsig.hd86589.weather.Main" isStatic="false" name="start" primary="true" signature="()V">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.Main" end="58" endBytecode="348" sourcefile="Main.java" sourcepath="de/fh/albsig/hd86589/weather/Main.java" start="34" startBytecode="0"/>
+      <Message>In method de.fh.albsig.hd86589.weather.Main.start()</Message>
+    </Method>
+    <Method classname="java.util.Scanner" isStatic="false" name="&lt;init&gt;" role="METHOD_CALLED" signature="(Ljava/io/InputStream;)V">
+      <SourceLine classname="java.util.Scanner" end="564" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java" start="563" startBytecode="0"/>
+      <Message>Called method new java.util.Scanner(InputStream)</Message>
+    </Method>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.Main" end="35" endBytecode="17" primary="true" sourcefile="Main.java" sourcepath="de/fh/albsig/hd86589/weather/Main.java" start="35" startBytecode="17">
+      <Message>At Main.java:[line 35]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance abbrev="Dm" category="I18N" instanceHash="a3584d2f5cdbb50087b11091c1d9cdbf" instanceOccurrenceMax="0" instanceOccurrenceNum="0" priority="1" rank="19" type="DM_DEFAULT_ENCODING">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in de.fh.albsig.hd86589.weather.WeatherFormatter.format(Weather): new java.io.InputStreamReader(InputStream)</LongMessage>
+    <Class classname="de.fh.albsig.hd86589.weather.WeatherFormatter" primary="true">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="73" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="32">
+        <Message>At WeatherFormatter.java:[lines 32-73]</Message>
+      </SourceLine>
+      <Message>In class de.fh.albsig.hd86589.weather.WeatherFormatter</Message>
+    </Class>
+    <Method classname="de.fh.albsig.hd86589.weather.WeatherFormatter" isStatic="false" name="format" primary="true" signature="(Lde/fh/albsig/hd86589/weather/Weather;)Ljava/lang/String;">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="48" endBytecode="174" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="42" startBytecode="0"/>
+      <Message>In method de.fh.albsig.hd86589.weather.WeatherFormatter.format(Weather)</Message>
+    </Method>
+    <Method classname="java.io.InputStreamReader" isStatic="false" name="&lt;init&gt;" role="METHOD_CALLED" signature="(Ljava/io/InputStream;)V">
+      <SourceLine classname="java.io.InputStreamReader" end="79" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java" start="72" startBytecode="0"/>
+      <Message>Called method new java.io.InputStreamReader(InputStream)</Message>
+    </Method>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="43" endBytecode="24" primary="true" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="43" startBytecode="24">
+      <Message>At WeatherFormatter.java:[line 43]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance abbrev="Dm" category="I18N" instanceHash="4121c0df4021df5b564941ac9c915015" instanceOccurrenceMax="0" instanceOccurrenceNum="0" priority="1" rank="19" type="DM_DEFAULT_ENCODING">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in de.fh.albsig.hd86589.weather.WeatherFormatter.formatXml(File): new java.io.FileWriter(File)</LongMessage>
+    <Class classname="de.fh.albsig.hd86589.weather.WeatherFormatter" primary="true">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="73" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="32">
+        <Message>At WeatherFormatter.java:[lines 32-73]</Message>
+      </SourceLine>
+      <Message>In class de.fh.albsig.hd86589.weather.WeatherFormatter</Message>
+    </Class>
+    <Method classname="de.fh.albsig.hd86589.weather.WeatherFormatter" isStatic="true" name="formatXml" primary="true" signature="(Ljava/io/File;)V">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="73" endBytecode="320" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="57" startBytecode="0"/>
+      <Message>In method de.fh.albsig.hd86589.weather.WeatherFormatter.formatXml(File)</Message>
+    </Method>
+    <Method classname="java.io.FileWriter" isStatic="false" name="&lt;init&gt;" role="METHOD_CALLED" signature="(Ljava/io/File;)V">
+      <SourceLine classname="java.io.FileWriter" end="91" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java" start="90" startBytecode="0"/>
+      <Message>Called method new java.io.FileWriter(File)</Message>
+    </Method>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="70" endBytecode="81" primary="true" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="70" startBytecode="81">
+      <Message>At WeatherFormatter.java:[line 70]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance abbrev="OBL" category="EXPERIMENTAL" instanceHash="d857885c0b29ed9fd907d200c25a82ef" instanceOccurrenceMax="0" instanceOccurrenceNum="0" priority="2" rank="20" type="OBL_UNSATISFIED_OBLIGATION">
+    <ShortMessage>Method may fail to clean up stream or resource</ShortMessage>
+    <LongMessage>de.fh.albsig.hd86589.weather.WeatherFormatter.formatXml(File) may fail to clean up java.io.InputStream</LongMessage>
+    <Class classname="de.fh.albsig.hd86589.weather.WeatherFormatter" primary="true">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="73" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="32">
+        <Message>At WeatherFormatter.java:[lines 32-73]</Message>
+      </SourceLine>
+      <Message>In class de.fh.albsig.hd86589.weather.WeatherFormatter</Message>
+    </Class>
+    <Method classname="de.fh.albsig.hd86589.weather.WeatherFormatter" isStatic="true" name="formatXml" primary="true" signature="(Ljava/io/File;)V">
+      <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="73" endBytecode="320" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="57" startBytecode="0"/>
+      <Message>In method de.fh.albsig.hd86589.weather.WeatherFormatter.formatXml(File)</Message>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java" start="45">
+        <Message>At InputStream.java:[lines 45-364]</Message>
+      </SourceLine>
+      <Message>Reference type java.io.InputStream</Message>
+    </Class>
+    <Int role="INT_OBLIGATIONS_REMAINING" value="1">
+      <Message>1 instances of obligation remaining</Message>
+    </Int>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="62" endBytecode="22" primary="true" role="SOURCE_LINE_OBLIGATION_CREATED" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="62" startBytecode="22">
+      <Message>Obligation to clean up resource created at WeatherFormatter.java:[line 62] is not discharged</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="65" endBytecode="29" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="65" startBytecode="29">
+      <Message>Path continues at WeatherFormatter.java:[line 65]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="66" endBytecode="37" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="66" startBytecode="37">
+      <Message>Path continues at WeatherFormatter.java:[line 66]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="67" endBytecode="44" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="67" startBytecode="44">
+      <Message>Path continues at WeatherFormatter.java:[line 67]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="68" endBytecode="52" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="68" startBytecode="52">
+      <Message>Path continues at WeatherFormatter.java:[line 68]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="69" endBytecode="60" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="69" startBytecode="60">
+      <Message>Path continues at WeatherFormatter.java:[line 69]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="70" endBytecode="68" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="70" startBytecode="68">
+      <Message>Path continues at WeatherFormatter.java:[line 70]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="71" endBytecode="85" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="71" startBytecode="85">
+      <Message>Path continues at WeatherFormatter.java:[line 71]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="72" endBytecode="105" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="72" startBytecode="105">
+      <Message>Path continues at WeatherFormatter.java:[line 72]</Message>
+    </SourceLine>
+    <SourceLine classname="de.fh.albsig.hd86589.weather.WeatherFormatter" end="73" endBytecode="109" role="SOURCE_LINE_PATH_CONTINUES" sourcefile="WeatherFormatter.java" sourcepath="de/fh/albsig/hd86589/weather/WeatherFormatter.java" start="73" startBytecode="109">
+      <Message>Path continues at WeatherFormatter.java:[line 73]</Message>
+    </SourceLine>
+    <String role="STRING_REMAINING_OBLIGATIONS" value="{InputStream x 1}">
+      <Message>Remaining obligations: {InputStream x 1}</Message>
+    </String>
+  </BugInstance>
+  <BugCategory category="EXPERIMENTAL">
+    <Description>Experimental</Description>
+  </BugCategory>
+  <BugCategory category="I18N">
+    <Description>Internationalization</Description>
+  </BugCategory>
+  <BugPattern abbrev="Dm" category="I18N" type="DM_DEFAULT_ENCODING">
+    <ShortDescription>Reliance on default encoding</ShortDescription>
+    <Details>
+
+&lt;p&gt; Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  &lt;/p&gt;
+
+      </Details>
+  </BugPattern>
+  <BugPattern abbrev="OBL" category="EXPERIMENTAL" type="OBL_UNSATISFIED_OBLIGATION">
+    <ShortDescription>Method may fail to clean up stream or resource</ShortDescription>
+    <Details>
+          
+          &lt;p&gt;
+          This method may fail to clean up (close, dispose of) a stream,
+          database object, or other
+          resource requiring an explicit cleanup operation.
+          &lt;/p&gt;
+
+          &lt;p&gt;
+          In general, if a method opens a stream or other resource,
+          the method should use a try/finally block to ensure that
+          the stream or resource is cleaned up before the method
+          returns.
+          &lt;/p&gt;
+
+          &lt;p&gt;
+          This bug pattern is essentially the same as the
+          OS_OPEN_STREAM and ODR_OPEN_DATABASE_RESOURCE
+          bug patterns, but is based on a different
+          (and hopefully better) static analysis technique.
+          We are interested is getting feedback about the
+          usefulness of this bug pattern.
+          To send feedback, either:
+          &lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;send email to findbugs@cs.umd.edu&lt;/li&gt;
+            &lt;li&gt;file a bug report: &lt;a href="http://findbugs.sourceforge.net/reportingBugs.html"&gt;http://findbugs.sourceforge.net/reportingBugs.html&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+
+          &lt;p&gt;
+          In particular,
+          the false-positive suppression heuristics for this
+          bug pattern have not been extensively tuned, so
+          reports about false positives are helpful to us.
+          &lt;/p&gt;
+
+          &lt;p&gt;
+          See Weimer and Necula, &lt;i&gt;Finding and Preventing Run-Time Error Handling Mistakes&lt;/i&gt;, for
+          a description of the analysis technique.
+          &lt;/p&gt;
+          
+      </Details>
+  </BugPattern>
+  <BugCode abbrev="OBL">
+    <Description>Unsatisfied obligation to clean up stream or resource</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"/>
+  <FindBugsSummary alloc_mbytes="455.50" clock_seconds="2.34" cpu_seconds="7.47" gc_seconds="0.05" java_version="1.8.0_191" num_packages="1" peak_mbytes="146.24" priority_1="3" priority_2="1" referenced_classes="58" timestamp="Tue, 20 Nov 2018 15:33:01 +0100" total_bugs="4" total_classes="5" total_size="148" vm_version="25.191-b12">
+    <FileStats bugCount="1" bugHash="fbb893c3d7e48719b257316174327455" path="de/fh/albsig/hd86589/weather/Main.java" size="27"/>
+    <FileStats bugCount="0" path="de/fh/albsig/hd86589/weather/Weather.java" size="46"/>
+    <FileStats bugCount="3" bugHash="bf96f2fcc89f6d1023f58b32764062e4" path="de/fh/albsig/hd86589/weather/WeatherFormatter.java" size="31"/>
+    <FileStats bugCount="0" path="de/fh/albsig/hd86589/weather/WeatherParser.java" size="28"/>
+    <FileStats bugCount="0" path="de/fh/albsig/hd86589/weather/WeatherRetriever.java" size="16"/>
+    <PackageStats package="de.fh.albsig.hd86589.weather" priority_1="3" priority_2="1" total_bugs="4" total_size="148" total_types="5">
+      <ClassStats bugs="1" class="de.fh.albsig.hd86589.weather.Main" interface="false" priority_1="1" size="27" sourceFile="Main.java"/>
+      <ClassStats bugs="0" class="de.fh.albsig.hd86589.weather.Weather" interface="false" size="46" sourceFile="Weather.java"/>
+      <ClassStats bugs="3" class="de.fh.albsig.hd86589.weather.WeatherFormatter" interface="false" priority_1="2" priority_2="1" size="31" sourceFile="WeatherFormatter.java"/>
+      <ClassStats bugs="0" class="de.fh.albsig.hd86589.weather.WeatherParser" interface="false" size="28" sourceFile="WeatherParser.java"/>
+      <ClassStats bugs="0" class="de.fh.albsig.hd86589.weather.WeatherRetriever" interface="false" size="16" sourceFile="WeatherRetriever.java"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile avgMicrosecondsPerInvocation="704" invocations="646" maxMicrosecondsPerInvocation="11118" name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" standardDeviationMircosecondsPerInvocation="576" totalMilliseconds="454"/>
+      <ClassProfile avgMicrosecondsPerInvocation="456" invocations="645" maxMicrosecondsPerInvocation="29363" name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" standardDeviationMircosecondsPerInvocation="1475" totalMilliseconds="294"/>
+      <ClassProfile avgMicrosecondsPerInvocation="2255" invocations="58" maxMicrosecondsPerInvocation="19754" name="edu.umd.cs.findbugs.detect.FieldItemSummary" standardDeviationMircosecondsPerInvocation="3861" totalMilliseconds="130"/>
+      <ClassProfile avgMicrosecondsPerInvocation="1666" invocations="58" maxMicrosecondsPerInvocation="16250" name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" standardDeviationMircosecondsPerInvocation="2693" totalMilliseconds="96"/>
+      <ClassProfile avgMicrosecondsPerInvocation="502" invocations="182" maxMicrosecondsPerInvocation="7126" name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" standardDeviationMircosecondsPerInvocation="733" totalMilliseconds="91"/>
+      <ClassProfile avgMicrosecondsPerInvocation="112" invocations="612" maxMicrosecondsPerInvocation="16370" name="edu.umd.cs.findbugs.util.TopologicalSort" standardDeviationMircosecondsPerInvocation="683" totalMilliseconds="69"/>
+      <ClassProfile avgMicrosecondsPerInvocation="1864" invocations="29" maxMicrosecondsPerInvocation="15146" name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" standardDeviationMircosecondsPerInvocation="3888" totalMilliseconds="54"/>
+      <ClassProfile avgMicrosecondsPerInvocation="1592" invocations="29" maxMicrosecondsPerInvocation="38375" name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" standardDeviationMircosecondsPerInvocation="6984" totalMilliseconds="46"/>
+      <ClassProfile avgMicrosecondsPerInvocation="384" invocations="103" maxMicrosecondsPerInvocation="14367" name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" standardDeviationMircosecondsPerInvocation="1470" totalMilliseconds="39"/>
+      <ClassProfile avgMicrosecondsPerInvocation="576" invocations="58" maxMicrosecondsPerInvocation="4780" name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" standardDeviationMircosecondsPerInvocation="977" totalMilliseconds="33"/>
+      <ClassProfile avgMicrosecondsPerInvocation="560" invocations="58" maxMicrosecondsPerInvocation="8302" name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" standardDeviationMircosecondsPerInvocation="1271" totalMilliseconds="32"/>
+      <ClassProfile avgMicrosecondsPerInvocation="480" invocations="58" maxMicrosecondsPerInvocation="4940" name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" standardDeviationMircosecondsPerInvocation="847" totalMilliseconds="27"/>
+      <ClassProfile avgMicrosecondsPerInvocation="479" invocations="58" maxMicrosecondsPerInvocation="9566" name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" standardDeviationMircosecondsPerInvocation="1297" totalMilliseconds="27"/>
+      <ClassProfile avgMicrosecondsPerInvocation="860" invocations="29" maxMicrosecondsPerInvocation="6735" name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" standardDeviationMircosecondsPerInvocation="1357" totalMilliseconds="24"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures/>
+  <History/>
+</BugCollection>
