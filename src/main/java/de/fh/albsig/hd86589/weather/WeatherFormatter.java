@@ -8,12 +8,14 @@ import org.xml.sax.SAXException;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.Reader;
 import java.io.StringWriter;
 import java.io.Writer;
+import java.nio.charset.StandardCharsets;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -40,7 +42,8 @@ public class WeatherFormatter {
      */
     public String format(Weather weather) throws Exception {
         log.info("Formatting Weather Data");
-        final Reader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream("output.vm"));
+        final Reader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream("output.vm"),
+                "utf-8");
         final VelocityContext context = new VelocityContext();
         context.put("weather", weather);
         final StringWriter writer = new StringWriter();
@@ -76,28 +79,15 @@ public class WeatherFormatter {
         tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         tf.setOutputProperty(OutputKeys.INDENT, "yes");
         tf.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
-        if (file == new File("findbugsXml.xml")) {
-            final Writer out = new FileWriter(new File("findbugs_formatted.xml"));
-            tf.transform(new DOMSource(doc), new StreamResult(out));
-            try {
-                if (out != null) {
-                    out.close();
-                }
-            } catch (final IOException exc) {
-                log.error("Writer konnte nicht geschlossen werden! Exception in WeatherFormatter::formatXml: ", exc);
+        final File output = new File("src/main/formatted.xml");
+        final Writer out = new OutputStreamWriter(new FileOutputStream(output), StandardCharsets.UTF_8);
+        tf.transform(new DOMSource(doc), new StreamResult(out));
+        try {
+            if (out != null) {
+                out.close();
             }
-
-        } else {
-            final Writer out = new FileWriter(new File("src/main/formatted.xml"));
-            tf.transform(new DOMSource(doc), new StreamResult(out));
-            try {
-                if (out != null) {
-                    out.close();
-                }
-            } catch (final IllegalStateException exc) {
-                log.error("Writer konnte nicht geschlossen werden! Exception in WeatherFormatter::formatXml: ", exc);
-            }
+        } catch (final IllegalStateException exc) {
+            log.error("Writer konnte nicht geschlossen werden! Exception in WeatherFormatter::formatXml: ", exc);
         }
-
     }
 }

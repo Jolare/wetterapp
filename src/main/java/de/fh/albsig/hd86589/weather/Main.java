@@ -31,7 +31,7 @@ public class Main {
      */
     public void start() throws Exception {
         final File file = new File("src/main/output.xml");
-        final Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in, "utf-8");
         String read = "";
         System.out.print("Fuer welchen Ort soll das Wetter angezeigt werden? Format: Musterstadt, BW, DE\nEingabe: ");
         try {
@@ -53,7 +53,7 @@ public class Main {
         final Weather weather = new WeatherParser().parse(file);
         final String formatted = new WeatherFormatter().format(weather);
         System.out.print(formatted);
-        WeatherFormatter.formatXml(new File("src/main/formatted.xml"));
+        WeatherFormatter.formatXml(file);
 
     }
 }

@@ -117,40 +117,40 @@
 	</dependency>
   </dependencies>
   
-<!--   <reporting> -->
-<!-- 	<plugins> -->
-<!-- 		<plugin> -->
-<!-- 			<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 			<artifactId>maven-project-info-reports-plugin</artifactId> -->
-<!-- 			<version>2.7</version> -->
-<!-- 		</plugin> -->
-<!-- 		<plugin> -->
-<!-- 			<groupId>org.apache.maven.plugins</groupId> -->
-<!--           	<artifactId>maven-checkstyle-plugin</artifactId> -->
-<!--           	<version>3.0.0</version> -->
-<!-- 			<configuration> -->
-<!-- 				<configLocation>src/main/resources/checkstyle.xml</configLocation> -->
-<!-- 			</configuration> -->
-<!-- 			<reportSets> -->
-<!-- 				<reportSet> -->
-<!-- 					<reports> -->
-<!-- 						<report>checkstyle</report> -->
-<!-- 					</reports> -->
-<!-- 				</reportSet> -->
-<!-- 			</reportSets> -->
-<!-- 		</plugin> -->
-<!-- 		<plugin> -->
-<!-- 			<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 			<artifactId>maven-pmd-plugin</artifactId> -->
-<!-- 			<version>3.11.0</version> -->
-<!-- 		</plugin> -->
-<!-- 		<plugin> -->
-<!-- 			<groupId>org.codehaus.mojo</groupId> -->
-<!-- 			<artifactId>findbugs-maven-plugin</artifactId> -->
-<!-- 			<version>3.0.5</version> -->
-<!-- 		</plugin> -->
-<!-- 	  </plugins> -->
-<!-- 	</reporting> -->
+  <reporting>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-project-info-reports-plugin</artifactId>
+			<version>2.7</version>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+          	<artifactId>maven-checkstyle-plugin</artifactId>
+          	<version>3.0.0</version>
+			<configuration>
+				<configLocation>src/main/resources/checkstyle.xml</configLocation>
+			</configuration>
+			<reportSets>
+				<reportSet>
+					<reports>
+						<report>checkstyle</report>
+					</reports>
+				</reportSet>
+			</reportSets>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-pmd-plugin</artifactId>
+			<version>3.11.0</version>
+		</plugin>
+		<plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>findbugs-maven-plugin</artifactId>
+			<version>3.0.5</version>
+		</plugin>
+	  </plugins>
+	</reporting>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

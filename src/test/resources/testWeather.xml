@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2018-11-22T15:54:26Z" yahoo:lang="en-US">
+  <results>
+    <channel>
+      <yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="km" pressure="mb" speed="km/h" temperature="C"/>
+      <title>Yahoo! Weather - Stuttgart, BW, DE</title>
+      <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-698064/</link>
+      <description>Yahoo! Weather for Stuttgart, BW, DE</description>
+      <language>en-us</language>
+      <lastBuildDate>Thu, 22 Nov 2018 04:54 PM CET</lastBuildDate>
+      <ttl>60</ttl>
+      <yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="Stuttgart" country="Germany" region=" BW"/>
+      <yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="45" direction="25" speed="8.05"/>
+      <yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="72" pressure="33051.17" rising="0" visibility="25.91"/>
+      <yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="7:43 am" sunset="4:35 pm"/>
+      <image>
+        <title>Yahoo! Weather</title>
+        <width>142</width>
+        <height>18</height>
+        <link>http://weather.yahoo.com</link>
+        <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+      </image>
+      <item>
+        <title>Conditions for Stuttgart, BW, DE at 04:00 PM CET</title>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">48.76767</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">9.17192</geo:long>
+        <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-698064/</link>
+        <pubDate>Thu, 22 Nov 2018 04:00 PM CET</pubDate>
+        <yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="32" date="Thu, 22 Nov 2018 04:00 PM CET" temp="6" text="Sunny"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="22 Nov 2018" day="Thu" high="7" low="0" text="Partly Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="23 Nov 2018" day="Fri" high="5" low="-1" text="Partly Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="12" date="24 Nov 2018" day="Sat" high="7" low="2" text="Rain"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="25 Nov 2018" day="Sun" high="5" low="0" text="Mostly Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="26" date="26 Nov 2018" day="Mon" high="4" low="1" text="Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="27 Nov 2018" day="Tue" high="2" low="0" text="Mostly Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="28 Nov 2018" day="Wed" high="2" low="-3" text="Partly Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="29 Nov 2018" day="Thu" high="3" low="-1" text="Partly Cloudy"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="30 Nov 2018" day="Fri" high="5" low="1" text="Scattered Showers"/>
+        <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="12" date="01 Dec 2018" day="Sat" high="5" low="2" text="Rain"/>
+        <description>&lt;![CDATA[&lt;img src="http://l.yimg.com/a/i/us/we/52/32.gif"/&gt;
+&lt;BR /&gt;
+&lt;b&gt;Current Conditions:&lt;/b&gt;
+&lt;BR /&gt;Sunny
+&lt;BR /&gt;
+&lt;BR /&gt;
+&lt;b&gt;Forecast:&lt;/b&gt;
+&lt;BR /&gt; Thu - Partly Cloudy. High: 7Low: 0
+&lt;BR /&gt; Fri - Partly Cloudy. High: 5Low: -1
+&lt;BR /&gt; Sat - Rain. High: 7Low: 2
+&lt;BR /&gt; Sun - Mostly Cloudy. High: 5Low: 0
+&lt;BR /&gt; Mon - Cloudy. High: 4Low: 1
+&lt;BR /&gt;
+&lt;BR /&gt;
+&lt;a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-698064/"&gt;Full Forecast at Yahoo! Weather&lt;/a&gt;
+&lt;BR /&gt;
+&lt;BR /&gt;
+&lt;BR /&gt;
+]]&gt;</description>
+        <guid isPermaLink="false"/>
+      </item>
+    </channel>
+  </results>
+</query><!-- total: 13 -->

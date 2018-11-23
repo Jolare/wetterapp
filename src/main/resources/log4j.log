@@ -1,0 +1,89 @@
+2018-11-22 10:18:43 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:18:45 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:18:45 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:18:45 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:34:45 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:34:47 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:34:47 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:34:47 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:34:47 ERROR WeatherFormatter:73 - XML Konvertierung fehlgeschlagen! Exception in WeatherFormatter::formatXml: 
+java.io.FileNotFoundException: target\findbugsXml.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at de.fh.albsig.hd86589.weather.WeatherFormatter.formatXml(WeatherFormatter.java:69)
+	at de.fh.albsig.hd86589.weather.Main.start(Main.java:56)
+	at de.fh.albsig.hd86589.weather.Main.main(Main.java:26)
+2018-11-22 10:36:55 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:36:56 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:36:56 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:36:56 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:38:08 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:38:09 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:38:09 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:38:09 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:40:00 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:40:01 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:40:01 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:40:01 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:43:00 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:43:02 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:43:02 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:43:02 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:43:32 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:43:34 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:43:34 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:43:34 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:44:46 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:44:47 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:44:48 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:44:48 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 10:47:14 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 10:47:16 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 10:47:16 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 10:47:16 INFO  WeatherFormatter:42 - Formatting Weather Data
+2018-11-22 11:03:18 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 11:03:21 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 11:03:21 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 11:03:21 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-22 16:51:50 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 16:51:51 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 16:51:51 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 16:51:51 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-22 16:53:27 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 16:53:28 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 16:53:28 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 16:53:28 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-22 16:54:23 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 16:54:24 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 16:54:25 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 16:54:25 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-22 17:17:26 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-22 17:17:27 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 17:17:28 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 17:17:28 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-22 17:25:11 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 17:27:39 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 17:27:39 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 17:29:02 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-22 17:29:02 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 17:29:02 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-22 17:31:38 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 17:31:38 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-22 17:31:38 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-23 13:58:21 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 13:58:21 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 13:58:22 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-23 13:59:23 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 13:59:23 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 13:59:23 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-23 14:01:30 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 14:01:30 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-23 14:01:30 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-23 14:01:31 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 14:01:31 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-23 14:08:58 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 14:08:58 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-23 14:08:59 INFO  WeatherFormatter:44 - Formatting Weather Data
+2018-11-23 14:08:59 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-23 14:08:59 INFO  WeatherParser:32 - Parsing XML Response
