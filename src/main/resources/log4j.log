@@ -189,3 +189,7 @@ Wind Chill: 37
 2018-11-24 13:25:35 INFO  WeatherParser:29 - Creating XML Reader
 2018-11-24 13:25:35 INFO  WeatherParser:32 - Parsing XML Response
 2018-11-24 13:25:35 INFO  WeatherFormatter:45 - Formatting Weather Data
+2018-11-24 13:37:26 INFO  WeatherRetriever:28 - Retrieving Weather Data
+2018-11-24 13:37:27 INFO  WeatherParser:29 - Creating XML Reader
+2018-11-24 13:37:27 INFO  WeatherParser:32 - Parsing XML Response
+2018-11-24 13:37:27 INFO  WeatherFormatter:45 - Formatting Weather Data
