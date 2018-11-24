@@ -39,7 +39,7 @@ public class WeatherRetriever {
             conn = url.openConnection();
             is = conn.getInputStream();
         } catch (final Exception eex) {
-            log.error("Verbindung konnte nicht hergestellt werden! Exception in WeatherRetriever::retrieve: ", eex);
+            log.error(eex.getMessage(), eex);
         }
 
         return is;

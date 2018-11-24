@@ -3,9 +3,12 @@ package de.fh.albsig.hd86589.weather;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.TestInstance.Lifecycle;
 
 import java.io.File;
 
+@TestInstance(Lifecycle.PER_CLASS)
 public class WeatherParserTest {
     private final File testFile = new File("src/test/resources/testWeather.xml");
 

@@ -37,13 +37,13 @@ public class WeatherFormatter {
     /**
      * Format method, formats weather object into velocity output.
      * 
-     * @param weather Weather object
+     * @param weather  Weather object
+     * @param template String object
      * @return String formatted weather object
      */
-    public String format(Weather weather) throws Exception {
+    public String format(Weather weather, String template) throws Exception {
         log.info("Formatting Weather Data");
-        final Reader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream("output.vm"),
-                "utf-8");
+        final Reader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream(template), "utf-8");
         final VelocityContext context = new VelocityContext();
         context.put("weather", weather);
         final StringWriter writer = new StringWriter();
@@ -53,7 +53,7 @@ public class WeatherFormatter {
             writer.flush();
             writer.close();
         } catch (final IOException eex) {
-            log.error("Writer konnte nicht geschlossen werden! Exception in WeatherFormatter::format: ", eex);
+            log.error(eex.getMessage(), eex);
         }
         return stringWeather;
     }
@@ -73,7 +73,7 @@ public class WeatherFormatter {
             doc = db.parse(fis);
             fis.close();
         } catch (SAXException | IOException | ParserConfigurationException eex) {
-            log.error("XML Konvertierung fehlgeschlagen! Exception in WeatherFormatter::formatXml: ", eex);
+            log.error(eex.getMessage(), eex);
         }
         final Transformer tf = TransformerFactory.newInstance().newTransformer();
         tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
@@ -87,7 +87,7 @@ public class WeatherFormatter {
                 out.close();
             }
         } catch (final IllegalStateException exc) {
-            log.error("Writer konnte nicht geschlossen werden! Exception in WeatherFormatter::formatXml: ", exc);
+            log.error(exc.getMessage(), exc);
         }
     }
 }

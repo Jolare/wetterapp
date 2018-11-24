@@ -14,17 +14,19 @@ import java.io.File;
 public class WeatherFormatterTest {
     private Weather weather;
     private final File file = new File("src/test/resources/testWeather.xml");
+    String output;
 
     @BeforeAll
     public void construct() throws Exception {
         final WeatherParser parser = new WeatherParser();
         weather = parser.parse(file);
+        output = "output.vm";
     }
 
     @Test
     public void testFormat() throws Exception {
         final WeatherFormatter wf = new WeatherFormatter();
-        final String vOutput = wf.format(weather);
+        final String vOutput = wf.format(weather, output);
         assertNotNull(vOutput);
         assertEquals(vOutput,
                 "*********************************\r\n" + "Current Weather Conditions for:\r\n"

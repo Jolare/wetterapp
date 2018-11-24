@@ -30,6 +30,7 @@ public class Main {
      * Start method, uses all other classes of the package.
      */
     public void start() throws Exception {
+        final String outputvm = "output.vm";
         final File file = new File("src/main/output.xml");
         final Scanner scanner = new Scanner(System.in, "utf-8");
         String read = "";
@@ -51,7 +52,7 @@ public class Main {
             log.error("Empfangen der Daten fehlgeschlagen! Exception in Main::start: ", eex);
         }
         final Weather weather = new WeatherParser().parse(file);
-        final String formatted = new WeatherFormatter().format(weather);
+        final String formatted = new WeatherFormatter().format(weather, outputvm);
         System.out.print(formatted);
         WeatherFormatter.formatXml(file);
 

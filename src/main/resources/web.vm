@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<title>Wetterapp</title>
+	<body>
+	<div>
+		<h1>Wetterapp</h1>
+		<h2>${weather.temp}<span>°C</span></h2>
+		<h3>${weather.condition}</h4>
+		<h3>${weather.city}, ${weather.region}, ${weather.country}</h4>
+		<h4>Humidity: ${weather.humidity} %</h5>
+		<h4>Wind Chill: ${weather.chill} °</h5> 
+	</div>
+	</body>
+</html>
