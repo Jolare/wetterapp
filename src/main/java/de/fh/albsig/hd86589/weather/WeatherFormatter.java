@@ -73,13 +73,13 @@ public class WeatherFormatter {
             doc = db.parse(fis);
             fis.close();
         } catch (SAXException | IOException | ParserConfigurationException eex) {
-            log.error(eex.getMessage(), eex);
+            log.error("XML konnte nicht geparst werden: " + eex.getMessage(), eex);
         }
         final Transformer tf = TransformerFactory.newInstance().newTransformer();
         tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         tf.setOutputProperty(OutputKeys.INDENT, "yes");
         tf.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
-        final File output = new File("src/main/formatted.xml");
+        final File output = new File("src/main/resources/formatted.xml");
         final Writer out = new OutputStreamWriter(new FileOutputStream(output), StandardCharsets.UTF_8);
         tf.transform(new DOMSource(doc), new StreamResult(out));
         try {
@@ -87,7 +87,7 @@ public class WeatherFormatter {
                 out.close();
             }
         } catch (final IllegalStateException exc) {
-            log.error(exc.getMessage(), exc);
+            log.error("Writer konnte nicht geschlossen werden: " + exc.getMessage(), exc);
         }
     }
 }

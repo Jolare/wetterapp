@@ -39,7 +39,7 @@ public class WeatherRetriever {
             conn = url.openConnection();
             is = conn.getInputStream();
         } catch (final Exception eex) {
-            log.error(eex.getMessage(), eex);
+            log.error("Abrufen des InputStreams fehlgeschlagen: " + eex.getMessage(), eex);
         }
 
         return is;

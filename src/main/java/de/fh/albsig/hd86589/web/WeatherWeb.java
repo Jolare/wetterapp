@@ -7,12 +7,13 @@ import de.fh.albsig.hd86589.weather.WeatherRetriever;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import java.io.File;
 import java.io.InputStream;
 
 /**
- * Weather Formatter class and methods.
+ * Weather Webservice.
  * 
  * @author Johannes
  */
@@ -21,10 +22,14 @@ public class WeatherWeb {
 
     /**
      * Start method.
+     * 
+     * @param request String to get
+     * @return String
      */
     public static String start(String request) throws Exception {
+        PropertyConfigurator.configure(WeatherServlet.class.getClassLoader().getResource("log4j.properties"));
         final String output = "web.vm";
-        final File file = new File("src/main/output.xml");
+        final File file = new File("src/main/resources/output.xml");
         try {
             // Retrieve Data
             final InputStream dataIn = new WeatherRetriever().retrieve(request);
@@ -33,11 +38,10 @@ public class WeatherWeb {
                 dataIn.close();
             }
         } catch (final Exception eex) {
-            log.error(eex.getMessage(), eex);
+            log.error("Empfangen der Daten fehlgeschlagen: " + eex.getMessage(), eex);
         }
         final Weather weather = new WeatherParser().parse(file);
         final String formatted = new WeatherFormatter().format(weather, output);
-        System.out.print(formatted);
         WeatherFormatter.formatXml(file);
         return formatted;
     }
